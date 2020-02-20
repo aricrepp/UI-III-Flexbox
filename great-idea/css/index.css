@@ -155,11 +155,18 @@ h5 {
   margin: 0 auto;
 }
 
-header {
+.main-header {
   display: flex;
   flex-direction: column;
   width: 100%;
   height: 70vh;
+}
+
+.services-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
 }
 
 nav {
@@ -194,9 +201,9 @@ nav {
 
 .img-link {
   display: flex;
-  align-content: center;
-  justify-items: center;
-  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 10px;
 }
 
 .logo {
@@ -316,4 +323,48 @@ hr {
   font-family: "Contrail One", cursive;
   margin-top: 20px;
   margin-bottom: 100px;
+}
+
+.margin-even {
+  margin: 50px 0;
+}
+
+.service-cta-container {
+  width: 100%;
+}
+
+.services-header-img {
+  width: 100%;
+  height: 300px;
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.services-container h2 {
+  font-size: 24px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 40px;
+  margin: 10px;
+  width: 48.3%;
+  box-sizing: border-box;
+  line-height: 1.5em;
+}
+
+.learn-more {
+  text-decoration: none;
 }
